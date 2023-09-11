@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Result</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style1.css') }}">
+
+    </head>
+    <body>
+        <h1>Have a safe journey</h1>
+        {% if request.method == 'POST' %}
+            
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <td>{{ name }}</td>
+                </tr>
+                <tr>
+                    <th>phone_no</th>
+                    <td>{{ num }}</td>
+                </tr>
+                <tr>
+                    <th>From Place</th>
+                    <td>{{ from_place }}</td>
+                </tr>
+                <tr>
+                    <th>To_Place</th>
+                    <td>{{ to_place }}</td>
+                </tr>
+                <tr>
+                    <th>Adult</th>
+                    <td>{{ adult }}</td>
+                </tr>
+                <tr>
+                    <th>child</th>
+                    <td>{{child}}</td>
+                </tr>
+                <tr>
+                    <th>total amount</th>
+                    <td>{{ amount }}</td>
+                </tr>
+            </table>
+        {% endif %}
+       
+    </body>
+</html>

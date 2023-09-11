@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "248638820377",
+    "project_id": "bhujbalassignment",
+    "storage_bucket": "bhujbalassignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248638820377:android:b25febd160847fb5a51a88",
+        "android_client_info": {
+          "package_name": "com.bharath.bhujbalassignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgqbmwhVr4eYVnoHmD9OvzATdKwq2mxcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

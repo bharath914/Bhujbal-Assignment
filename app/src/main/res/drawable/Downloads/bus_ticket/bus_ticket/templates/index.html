@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Bus</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h1>Ticket booking</h1>
+        <div id="abhi">
+            <form action="submit" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+                <label for="num">phone_no :</label>
+                <input type="number" id="num" name="num" placeholder="Enter your phone number"><br><br>
+                <label for="from_place">from Place:</label>
+                <select name="from_place" id="from_place" required>
+                    <option >Select Place</option>
+                    <option value="kakinada">kakinada</option>
+                    <option value="annavaram">annavaram</option>
+                    <option value="tuni">tuni</option>
+                    <option value="anakapalli">anakapalli</option>
+                    <option value="vizag">vizag</option>
+                </select><br><br>
+                <label for="to_place">To Place:</label>
+                <select name="to_place" id="to_place" required>
+                    <option >Select Place</option>
+                    <option value="kakinada">kakinada</option>
+                    <option value="annavaram">annavaram</option>
+                    <option value="tuni">tuni</option>
+                    <option value="anakapalli">anakapalli</option>
+                    <option value="vizag">vizag</option>
+                </select><br><br>
+                <lable for="adult">Adults :</lable>
+                <input type="number" min="0" id="adult" name="adult"><br><br>
+                <lable for="child">children :</lable>
+                <input type="number" min="0" id="child" name="child"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+    </body>
+</html>
